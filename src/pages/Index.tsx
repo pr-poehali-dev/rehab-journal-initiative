@@ -2,11 +2,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
 
 export default function Index() {
-  const stats = [
-    { number: "1000+", label: "Детей и подростков ежегодно", icon: "Users" },
-    { number: "90%", label: "Поддержали создание журнала", icon: "TrendingUp" },
-    { number: "10x", label: "Рост наркозависимых за 10 лет", icon: "AlertTriangle" }
-  ];
+
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -23,30 +19,7 @@ export default function Index() {
       </header>
 
       <main className="max-w-4xl mx-auto px-6 py-12">
-        {/* Statistics */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-          {stats.map((stat, index) => (
-            <Card key={index} className="text-center hover:shadow-lg transition-shadow">
-              <CardContent className="pt-6">
-                <div className="flex justify-center mb-4">
-                  <div className="p-3 bg-blue-100 rounded-full">
-                    <Icon 
-                      name={stat.icon as any} 
-                      size={24} 
-                      className="text-blue-600"
-                    />
-                  </div>
-                </div>
-                <div className="text-3xl font-bold text-slate-900 mb-2">
-                  {stat.number}
-                </div>
-                <div className="text-sm text-slate-600">
-                  {stat.label}
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+
 
         {/* Article */}
         <Card className="shadow-lg">
