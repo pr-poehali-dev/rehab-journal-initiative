@@ -15,13 +15,14 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 214 100% 50%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 98%;
 
-    --article-blue: 214 100% 50%;
-    --article-dark: 215 28% 17%;
-    --article-gray: 216 12% 84%;
-    --article-light: 0 0% 98%;
+    --agro-green: 142 76% 36%;
+    --agro-light-green: 142 52% 96%;
+    --agro-earth: 35 25% 55%;
+    --agro-gold: 45 93% 47%;
+    --agro-dark: 142 43% 15%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
