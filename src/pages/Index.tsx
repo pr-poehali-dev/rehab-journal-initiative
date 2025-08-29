@@ -40,53 +40,7 @@ export default function Index() {
       </header>
 
       <main className="max-w-4xl mx-auto px-6 py-12">
-        {/* Photo Gallery */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-green-800 mb-8 text-center">
-            Наша работа с молодежью
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="aspect-square bg-cover bg-center" style={{backgroundImage: "url('https://cdn.poehali.dev/files/f1210b6b-c86d-4af6-abe0-01f044f7e672.jpg')"}}>
-                <div className="bg-gradient-to-t from-black/60 to-transparent h-full flex items-end">
-                  <p className="text-white p-4 font-medium">Групповые занятия</p>
-                </div>
-              </div>
-            </Card>
-            
-            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="aspect-square bg-cover bg-center" style={{backgroundImage: "url('https://cdn.poehali.dev/files/e9039219-f226-4307-a99b-7dffc764e43a.jpg')"}}>
-                <div className="bg-gradient-to-t from-black/60 to-transparent h-full flex items-end">
-                  <p className="text-white p-4 font-medium">Арт-терапия</p>
-                </div>
-              </div>
-            </Card>
 
-            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="aspect-square bg-cover bg-center" style={{backgroundImage: "url('https://cdn.poehali.dev/files/63fe48d0-3a58-4801-bdfb-30e9ec32fb86.jpg')"}}>
-                <div className="bg-gradient-to-t from-black/60 to-transparent h-full flex items-end">
-                  <p className="text-white p-4 font-medium">Творческие мастерские</p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="overflow-hidden hover:shadow-xl transition-shadow md:col-span-2">
-              <div className="aspect-video bg-cover bg-center" style={{backgroundImage: "url('https://cdn.poehali.dev/files/d6e45e89-8a5d-4372-9627-4ff191be4671.jpg')"}}>
-                <div className="bg-gradient-to-t from-black/60 to-transparent h-full flex items-end">
-                  <p className="text-white p-4 font-medium">Совместная деятельность и обучение</p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="aspect-square bg-cover bg-center" style={{backgroundImage: "url('https://cdn.poehali.dev/files/0f3ec026-6ea6-4558-a067-8037d488fa05.jpg')"}}>
-                <div className="bg-gradient-to-t from-black/60 to-transparent h-full flex items-end">
-                  <p className="text-white p-4 font-medium">Публикации и достижения</p>
-                </div>
-              </div>
-            </Card>
-          </div>
-        </section>
 
         {/* Article */}
         <Card className="shadow-xl border-0 bg-white">
